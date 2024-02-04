@@ -1,0 +1,15 @@
+META-INF/spring-configuration-metadata.json
+com/answer/common/lb/chooser/RandomRuleChooser.class
+com/answer/common/lb/config/VersionRegisterBeanPostProcessor.class
+com/answer/common/lb/annotation/EnableBaseFeignInterceptor.class
+com/answer/common/lb/annotation/EnableFeignInterceptor.class
+com/answer/common/lb/config/VerionIsolationAutoConfig.class
+com/answer/common/lb/config/VersionLoadBalancerConfig.class
+com/answer/common/lb/RestTemplateAutoConfigure.class
+com/answer/common/lb/utils/QueryUtils.class
+com/answer/common/lb/config/FeignInterceptorConfig.class
+com/answer/common/lb/config/FeignHttpInterceptorConfig.class
+com/answer/common/lb/chooser/IRuleChooser.class
+com/answer/common/lb/chooser/RoundRuleChooser.class
+com/answer/common/lb/loadbalancer/VersionLoadBalancer.class
+com/answer/common/lb/properties/RestTemplateProperties.class

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/answer-business/code-generator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-business/code-generator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-business/file-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-business/file-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-business/search-center/search-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-business/search-center/search-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-business/search-center/search-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-business/search-center/search-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-business/user-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-business/user-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-common/answer-auth-client-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-common/answer-auth-client-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-common/answer-common-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-common/answer-common-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-common/answer-common-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-common/answer-common-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-common/answer-db-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-common/answer-db-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-common/answer-elasticsearch-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-common/answer-elasticsearch-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-common/answer-loadbalancer-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-common/answer-loadbalancer-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-common/answer-log-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-common/answer-log-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-common/answer-oss-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-common/answer-oss-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-common/answer-redis-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-common/answer-redis-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-common/answer-sentinel-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-common/answer-sentinel-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-common/answer-swagger2-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-common/answer-swagger2-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-common/answer-zookeeper-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-common/answer-zookeeper-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-config/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-gateway/sc-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-gateway/sc-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-monitor/log-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-monitor/log-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-monitor/sc-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-monitor/sc-admin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-uaa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-uaa/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-web/layui-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-web/layui-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-web/react-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/answer-web/react-web/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

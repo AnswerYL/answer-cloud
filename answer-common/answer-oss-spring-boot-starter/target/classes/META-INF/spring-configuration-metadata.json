@@ -1,0 +1,30 @@
+{
+  "groups": [
+    {
+      "name": "answer.file-server",
+      "type": "com.answer.common.oss.properties.FileServerProperties",
+      "sourceType": "com.answer.common.oss.properties.FileServerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "answer.file-server.fdfs",
+      "type": "com.answer.common.oss.properties.FdfsProperties",
+      "description": "fastDFS配置",
+      "sourceType": "com.answer.common.oss.properties.FileServerProperties"
+    },
+    {
+      "name": "answer.file-server.s3",
+      "type": "com.answer.common.oss.properties.S3Properties",
+      "description": "aws s3配置",
+      "sourceType": "com.answer.common.oss.properties.FileServerProperties"
+    },
+    {
+      "name": "answer.file-server.type",
+      "type": "java.lang.String",
+      "description": "为以下2个值，指定不同的自动化配置 s3：aws s3协议的存储（七牛oss、阿里云oss、minio等） fastdfs：本地部署的fastDFS",
+      "sourceType": "com.answer.common.oss.properties.FileServerProperties"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,118 @@
+2024-01-25 18:02:13,301 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2024-01-25 18:02:13,302 INFO listen for service meta change
+
+2024-01-25 18:07:18,201 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2024-01-25 18:07:18,202 INFO listen for service meta change
+
+2024-01-25 18:07:22,468 INFO member change, new members [Member{ip='192.168.0.101', port=8848, state=UP, extendInfo={lastRefreshTime=1706177242457, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@4f4f3244, raftPort=7848, version=2.0.0}}]
+
+2024-01-25 18:07:22,485 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.0.101:8848], new: [192.168.0.101:8848]
+
+2024-01-25 18:10:18,605 INFO Client connection 127.0.0.1:64687#true connect
+
+2024-01-25 18:10:18,791 INFO Client connection 192.168.0.101:8800#true connect
+
+2024-01-25 18:10:18,793 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='sc-gateway', ephemeral=true, revision=0}, 192.168.0.101:8800#true
+
+2024-01-25 18:21:06,960 WARN task com.alibaba.nacos.naming.push.v2.task.PushExecuteTask@65b42271 takes 5871ms
+
+2024-01-25 18:22:42,923 WARN task com.alibaba.nacos.naming.push.v2.task.PushExecuteTask@3054d9f9 takes 1662ms
+
+2024-01-25 18:22:54,057 WARN task com.alibaba.nacos.naming.push.v2.task.PushExecuteTask@1d951dfd takes 2814ms
+
+2024-01-25 18:46:23,561 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='sc-gateway', ephemeral=true, revision=1}, 192.168.0.101:8800#true
+
+2024-01-25 18:46:52,049 INFO Client connection 127.0.0.1:64687#true disconnect, remove instances and subscribers
+
+2024-01-25 18:46:57,052 INFO Client connection 192.168.0.101:8800#true disconnect, remove instances and subscribers
+
+2024-01-25 18:47:53,755 WARN namespace : public, [DEFAULT_GROUP@@sc-gateway] services are automatically cleaned
+
+2024-01-25 19:36:08,473 INFO Client connection 127.0.0.1:49597#true connect
+
+2024-01-25 19:36:08,614 INFO Client connection 192.168.0.101:8000#true connect
+
+2024-01-25 19:36:08,617 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='uaa-server', ephemeral=true, revision=0}, 192.168.0.101:8000#true
+
+2024-01-25 19:36:39,874 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='uaa-server', ephemeral=true, revision=1}, 192.168.0.101:8000#true
+
+2024-01-25 19:37:13,879 INFO Client connection 192.168.0.101:8000#true disconnect, remove instances and subscribers
+
+2024-01-25 19:37:13,879 INFO Client connection 127.0.0.1:49597#true disconnect, remove instances and subscribers
+
+2024-01-25 19:37:53,969 WARN namespace : public, [DEFAULT_GROUP@@uaa-server] services are automatically cleaned
+
+2024-01-25 19:48:01,102 INFO Client connection 127.0.0.1:54239#true connect
+
+2024-01-25 19:48:01,166 INFO Client connection 192.168.0.101:8000#true connect
+
+2024-01-25 19:48:01,166 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='uaa-server', ephemeral=true, revision=0}, 192.168.0.101:8000#true
+
+2024-01-25 19:59:18,186 INFO Client connection 127.0.0.1:60385#true connect
+
+2024-01-25 19:59:18,258 INFO Client connection 192.168.0.101:7000#true connect
+
+2024-01-25 19:59:18,259 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-center', ephemeral=true, revision=0}, 192.168.0.101:7000#true
+
+2024-01-25 19:59:38,242 INFO Client connection 127.0.0.1:58347#true connect
+
+2024-01-25 19:59:38,350 INFO Client connection 192.168.0.101:8800#true connect
+
+2024-01-25 19:59:38,351 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='sc-gateway', ephemeral=true, revision=0}, 192.168.0.101:8800#true
+
+2024-01-25 20:05:48,508 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='sc-gateway', ephemeral=true, revision=1}, 192.168.0.101:8800#true
+
+2024-01-25 20:05:55,103 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='user-center', ephemeral=true, revision=1}, 192.168.0.101:7000#true
+
+2024-01-25 20:05:55,418 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='uaa-server', ephemeral=true, revision=1}, 192.168.0.101:8000#true
+
+2024-01-25 20:06:20,230 INFO Client connection 127.0.0.1:58347#true disconnect, remove instances and subscribers
+
+2024-01-25 20:06:20,230 INFO Client connection 192.168.0.101:8800#true disconnect, remove instances and subscribers
+
+2024-01-25 20:06:25,235 INFO Client connection 192.168.0.101:7000#true disconnect, remove instances and subscribers
+
+2024-01-25 20:06:25,235 INFO Client connection 127.0.0.1:60385#true disconnect, remove instances and subscribers
+
+2024-01-25 20:06:30,239 INFO Client connection 127.0.0.1:54239#true disconnect, remove instances and subscribers
+
+2024-01-25 20:06:30,239 INFO Client connection 192.168.0.101:8000#true disconnect, remove instances and subscribers
+
+2024-01-25 20:06:55,993 WARN namespace : public, [DEFAULT_GROUP@@user-center] services are automatically cleaned
+
+2024-01-25 20:06:55,993 WARN namespace : public, [DEFAULT_GROUP@@sc-gateway] services are automatically cleaned
+
+2024-01-25 20:06:55,994 WARN namespace : public, [DEFAULT_GROUP@@uaa-server] services are automatically cleaned
+
+2024-01-25 20:12:42,039 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2024-01-25 20:12:42,088 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2024-01-25 20:12:43,305 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-01-25 20:12:43,305 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

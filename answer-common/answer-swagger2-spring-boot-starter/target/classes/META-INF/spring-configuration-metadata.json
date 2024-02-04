@@ -1,0 +1,113 @@
+{
+  "groups": [
+    {
+      "name": "answer.swagger",
+      "type": "com.answer.common.swagger2.SwaggerProperties",
+      "sourceType": "com.answer.common.swagger2.SwaggerProperties"
+    },
+    {
+      "name": "answer.swagger.contact",
+      "type": "com.answer.common.swagger2.SwaggerProperties$Contact",
+      "sourceType": "com.answer.common.swagger2.SwaggerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "answer.swagger.base-package",
+      "type": "java.lang.String",
+      "description": "swagger会解析的包路径",
+      "sourceType": "com.answer.common.swagger2.SwaggerProperties"
+    },
+    {
+      "name": "answer.swagger.base-path",
+      "type": "java.util.List<java.lang.String>",
+      "description": "swagger会解析的url规则",
+      "sourceType": "com.answer.common.swagger2.SwaggerProperties"
+    },
+    {
+      "name": "answer.swagger.contact.email",
+      "type": "java.lang.String",
+      "description": "联系人email",
+      "sourceType": "com.answer.common.swagger2.SwaggerProperties$Contact"
+    },
+    {
+      "name": "answer.swagger.contact.name",
+      "type": "java.lang.String",
+      "description": "联系人",
+      "sourceType": "com.answer.common.swagger2.SwaggerProperties$Contact"
+    },
+    {
+      "name": "answer.swagger.contact.url",
+      "type": "java.lang.String",
+      "description": "联系人url",
+      "sourceType": "com.answer.common.swagger2.SwaggerProperties$Contact"
+    },
+    {
+      "name": "answer.swagger.description",
+      "type": "java.lang.String",
+      "description": "描述",
+      "sourceType": "com.answer.common.swagger2.SwaggerProperties"
+    },
+    {
+      "name": "answer.swagger.docket",
+      "type": "java.util.Map<java.lang.String,com.answer.common.swagger2.SwaggerProperties$DocketInfo>",
+      "description": "分组文档",
+      "sourceType": "com.answer.common.swagger2.SwaggerProperties"
+    },
+    {
+      "name": "answer.swagger.enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否开启swagger",
+      "sourceType": "com.answer.common.swagger2.SwaggerProperties"
+    },
+    {
+      "name": "answer.swagger.exclude-path",
+      "type": "java.util.List<java.lang.String>",
+      "description": "在basePath基础上需要排除的url规则",
+      "sourceType": "com.answer.common.swagger2.SwaggerProperties"
+    },
+    {
+      "name": "answer.swagger.global-operation-parameters",
+      "type": "java.util.List<com.answer.common.swagger2.SwaggerProperties$GlobalOperationParameter>",
+      "description": "全局参数配置",
+      "sourceType": "com.answer.common.swagger2.SwaggerProperties"
+    },
+    {
+      "name": "answer.swagger.host",
+      "type": "java.lang.String",
+      "description": "host信息",
+      "sourceType": "com.answer.common.swagger2.SwaggerProperties"
+    },
+    {
+      "name": "answer.swagger.license",
+      "type": "java.lang.String",
+      "description": "许可证",
+      "sourceType": "com.answer.common.swagger2.SwaggerProperties"
+    },
+    {
+      "name": "answer.swagger.license-url",
+      "type": "java.lang.String",
+      "description": "许可证URL",
+      "sourceType": "com.answer.common.swagger2.SwaggerProperties"
+    },
+    {
+      "name": "answer.swagger.terms-of-service-url",
+      "type": "java.lang.String",
+      "description": "服务条款URL",
+      "sourceType": "com.answer.common.swagger2.SwaggerProperties"
+    },
+    {
+      "name": "answer.swagger.title",
+      "type": "java.lang.String",
+      "description": "标题",
+      "sourceType": "com.answer.common.swagger2.SwaggerProperties"
+    },
+    {
+      "name": "answer.swagger.version",
+      "type": "java.lang.String",
+      "description": "版本",
+      "sourceType": "com.answer.common.swagger2.SwaggerProperties"
+    }
+  ],
+  "hints": []
+}

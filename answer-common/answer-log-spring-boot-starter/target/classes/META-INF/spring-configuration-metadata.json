@@ -1,0 +1,262 @@
+{
+  "groups": [
+    {
+      "name": "answer.audit-log",
+      "type": "com.answer.common.log.properties.AuditLogProperties",
+      "sourceType": "com.answer.common.log.properties.AuditLogProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource",
+      "type": "com.answer.common.log.properties.LogDBProperties",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.trace",
+      "type": "com.answer.common.log.properties.TraceProperties",
+      "sourceType": "com.answer.common.log.properties.TraceProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "answer.audit-log.datasource.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.connection-test-query",
+      "type": "java.lang.String",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.data-source-j-n-d-i",
+      "type": "java.lang.String",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.data-source-jndi-name",
+      "type": "java.lang.String",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.exception-override-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.health-check-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.initialization-fail-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.is-allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.is-auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.is-isolate-internal-queries",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.is-read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.is-register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.isolate-internal-queries",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.keepalive-time",
+      "type": "java.lang.Long",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.leak-detection-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.max-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.metric-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.sealed",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.transaction-isolation",
+      "type": "java.lang.String",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.transaction-isolation-name",
+      "type": "java.lang.String",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.unit-test",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.datasource.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.answer.common.log.properties.LogDBProperties"
+    },
+    {
+      "name": "answer.audit-log.enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否开启审计日志",
+      "sourceType": "com.answer.common.log.properties.AuditLogProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "answer.audit-log.log-type",
+      "type": "java.lang.String",
+      "description": "日志记录类型(logger\/redis\/db\/es)",
+      "sourceType": "com.answer.common.log.properties.AuditLogProperties"
+    },
+    {
+      "name": "answer.trace.enable",
+      "type": "java.lang.Boolean",
+      "description": "是否开启日志链路追踪",
+      "sourceType": "com.answer.common.log.properties.TraceProperties",
+      "defaultValue": false
+    }
+  ],
+  "hints": []
+}

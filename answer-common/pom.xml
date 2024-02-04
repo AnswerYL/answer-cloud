@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>answer-cloud</artifactId>
+        <groupId>com.answer</groupId>
+        <version>1.0.1</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>answer-common</artifactId>
+    <description>通用组件</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>answer-redis-spring-boot-starter</module>
+        <module>answer-common-spring-boot-starter</module>
+        <module>answer-db-spring-boot-starter</module>
+        <module>answer-swagger2-spring-boot-starter</module>
+        <module>answer-loadbalancer-spring-boot-starter</module>
+        <module>answer-auth-client-spring-boot-starter</module>
+        <module>answer-log-spring-boot-starter</module>
+        <module>answer-sentinel-spring-boot-starter</module>
+        <module>answer-common-core</module>
+        <module>answer-elasticsearch-spring-boot-starter</module>
+        <module>answer-oss-spring-boot-starter</module>
+        <module>answer-zookeeper-spring-boot-starter</module>
+    </modules>
+</project>

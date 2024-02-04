@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="code-generator" />
+        <module name="sc-gateway" />
+        <module name="answer-swagger2-spring-boot-starter" />
+        <module name="answer-auth-client-spring-boot-starter" />
+        <module name="answer-elasticsearch-spring-boot-starter" />
+        <module name="sc-admin" />
+        <module name="log-center" />
+        <module name="answer-uaa" />
+        <module name="answer-sentinel-spring-boot-starter" />
+        <module name="file-center" />
+        <module name="search-client" />
+        <module name="answer-zookeeper-spring-boot-starter" />
+        <module name="answer-loadbalancer-spring-boot-starter" />
+        <module name="answer-redis-spring-boot-starter" />
+        <module name="user-center" />
+        <module name="answer-oss-spring-boot-starter" />
+        <module name="answer-common-core" />
+        <module name="answer-config" />
+        <module name="search-server" />
+        <module name="react-web" />
+        <module name="answer-demo" />
+        <module name="answer-log-spring-boot-starter" />
+        <module name="answer-db-spring-boot-starter" />
+        <module name="layui-web" />
+        <module name="answer-common-spring-boot-starter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="answer-authority" target="8" />
+      <module name="answer-dependencies-parent" target="8" />
+      <module name="answer-file" target="8" />
+      <module name="answer-msg" target="8" />
+      <module name="answer-oauth" target="8" />
+      <module name="answer-public" target="8" />
+      <module name="answer-support" target="8" />
+      <module name="answer-tenant" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

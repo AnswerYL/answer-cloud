@@ -1,0 +1,67 @@
+/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/bin/java  -Xms512m -Xmx512m -Xmn256m -Dnacos.standalone=true -Dnacos.member.list= -Djava.ext.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/lib/ext -Xloggc:/Users/liuyang/Documents/GitHub/answer-cloud/answer-register/nacos/logs/nacos_gc.log -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+PrintGCTimeStamps -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=10 -XX:GCLogFileSize=100M -Dloader.path=/Users/liuyang/Documents/GitHub/answer-cloud/answer-register/nacos/plugins/health,/Users/liuyang/Documents/GitHub/answer-cloud/answer-register/nacos/plugins/cmdb -Dnacos.home=/Users/liuyang/Documents/GitHub/answer-cloud/answer-register/nacos -jar /Users/liuyang/Documents/GitHub/answer-cloud/answer-register/nacos/target/nacos-server.jar  --spring.config.additional-location=file:/Users/liuyang/Documents/GitHub/answer-cloud/answer-register/nacos/conf/ --logging.config=/Users/liuyang/Documents/GitHub/answer-cloud/answer-register/nacos/conf/nacos-logback.xml --server.max-http-header-size=524288
+
+         ,--.
+       ,--.'|
+   ,--,:  : |                                           Nacos 2.0.0
+,`--.'`|  ' :                       ,---.               Running in stand alone mode, All function modules
+|   :  :  | |                      '   ,'\   .--.--.    Port: 8848
+:   |   \ | :  ,--.--.     ,---.  /   /   | /  /    '   Pid: 38233
+|   : '  '; | /       \   /     \.   ; ,. :|  :  /`./   Console: http://192.168.0.101:8848/nacos/index.html
+'   ' ;.    ;.--.  .-. | /    / ''   | |: :|  :  ;_
+|   | | \   | \__\/: . ..    ' / '   | .; : \  \    `.      https://nacos.io
+'   : |  ; .' ," .--.; |'   ; :__|   :    |  `----.   \
+|   | '`--'  /  /  ,.  |'   | '.'|\   \  /  /  /`--'  /
+'   : |     ;  :   .'   \   :    : `----'  '--'.     /
+;   |.'     |  ,     .-./\   \  /            `--'---'
+'---'        `--`---'     `----'
+
+2024-01-25 18:07:14,272 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6979efad' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2024-01-25 18:07:14,280 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2024-01-25 18:07:15,123 INFO Tomcat initialized with port(s): 8848 (http)
+
+2024-01-25 18:07:15,836 INFO Root WebApplicationContext: initialization completed in 11850 ms
+
+2024-01-25 18:07:24,068 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2024-01-25 18:07:24,273 INFO Adding welcome page: class path resource [static/index.html]
+
+2024-01-25 18:07:25,090 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2024-01-25 18:07:25,140 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c518474, org.springframework.security.web.context.SecurityContextPersistenceFilter@58496c97, org.springframework.security.web.header.HeaderWriterFilter@27e5b378, org.springframework.security.web.csrf.CsrfFilter@34f392be, org.springframework.security.web.authentication.logout.LogoutFilter@6ecab872, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3872bc37, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@144ab54, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@11b455e5, org.springframework.security.web.session.SessionManagementFilter@764cba, org.springframework.security.web.access.ExceptionTranslationFilter@3f9f71ff]
+
+2024-01-25 18:07:25,335 INFO Initializing ExecutorService 'taskScheduler'
+
+2024-01-25 18:07:25,365 INFO Exposing 16 endpoint(s) beneath base path '/actuator'
+
+2024-01-25 18:07:25,520 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2024-01-25 18:07:25,526 INFO Nacos started successfully in stand alone mode. use external storage
+
+2024-01-25 18:07:26,074 INFO Initializing Servlet 'dispatcherServlet'
+
+2024-01-25 18:07:26,094 INFO Completed initialization in 20 ms
+
+2024-01-25 20:12:42,018 WARN [WatchFileCenter] start close
+
+2024-01-25 20:12:42,020 WARN [NotifyCenter] Start destroying Publisher
+
+2024-01-25 20:12:42,020 WARN [ThreadPoolManager] Start destroying ThreadPool
+
+2024-01-25 20:12:42,066 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /Users/liuyang/Documents/GitHub/answer-cloud/answer-register/nacos/data/tps
+
+2024-01-25 20:12:42,067 WARN [NotifyCenter] Destruction of the end
+
+2024-01-25 20:12:42,073 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /Users/liuyang/Documents/GitHub/answer-cloud/answer-register/nacos/data/loader
+
+2024-01-25 20:12:42,073 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /Users/liuyang/Documents/GitHub/answer-cloud/answer-register/nacos/conf
+
+2024-01-25 20:12:42,074 WARN [WatchFileCenter] already closed
+
+2024-01-25 20:12:42,131 INFO Shutting down ExecutorService 'taskScheduler'
+
+2024-01-25 20:12:42,152 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+
+2024-01-25 20:12:44,314 WARN [ThreadPoolManager] Destruction of the end
+

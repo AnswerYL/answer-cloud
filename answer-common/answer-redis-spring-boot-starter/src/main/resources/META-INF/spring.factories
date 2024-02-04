@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.answer.common.redis.RedisAutoConfigure,\
+  com.answer.common.redis.lock.RedissonDistributedLock,\
+  com.answer.common.redis.template.CustomRedisTemplate

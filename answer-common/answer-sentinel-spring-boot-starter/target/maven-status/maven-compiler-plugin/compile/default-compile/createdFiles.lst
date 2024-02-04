@@ -1,0 +1,3 @@
+com/answer/common/sentinel/SentinelAutoConfigure$WebfluxHandler.class
+com/answer/common/sentinel/SentinelAutoConfigure$WebmvcHandler.class
+com/answer/common/sentinel/SentinelAutoConfigure.class

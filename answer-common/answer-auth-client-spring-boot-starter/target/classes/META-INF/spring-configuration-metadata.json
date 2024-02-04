@@ -1,0 +1,39 @@
+{
+  "groups": [
+    {
+      "name": "answer.oauth2.token.store",
+      "type": "com.answer.common.oauth2.properties.TokenStoreProperties",
+      "sourceType": "com.answer.common.oauth2.properties.TokenStoreProperties"
+    },
+    {
+      "name": "answer.security",
+      "type": "com.answer.common.oauth2.properties.SecurityProperties",
+      "sourceType": "com.answer.common.oauth2.properties.SecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "answer.oauth2.token.store.type",
+      "type": "java.lang.String",
+      "description": "token存储类型(redis\/db\/authJwt\/resJwt)",
+      "sourceType": "com.answer.common.oauth2.properties.TokenStoreProperties",
+      "defaultValue": "redis"
+    },
+    {
+      "name": "answer.security.auth",
+      "type": "com.answer.common.oauth2.properties.AuthProperties",
+      "sourceType": "com.answer.common.oauth2.properties.SecurityProperties"
+    },
+    {
+      "name": "answer.security.code",
+      "type": "com.answer.common.oauth2.properties.ValidateCodeProperties",
+      "sourceType": "com.answer.common.oauth2.properties.SecurityProperties"
+    },
+    {
+      "name": "answer.security.ignore",
+      "type": "com.answer.common.oauth2.properties.PermitProperties",
+      "sourceType": "com.answer.common.oauth2.properties.SecurityProperties"
+    }
+  ],
+  "hints": []
+}
