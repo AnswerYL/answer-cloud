@@ -1,6 +1,0 @@
-/Users/liuyang/Documents/GitHub/answer-cloud/answer-common/answer-redis-spring-boot-starter/src/main/java/com/answer/common/redis/properties/CacheManagerProperties.java
-/Users/liuyang/Documents/GitHub/answer-cloud/answer-common/answer-redis-spring-boot-starter/src/main/java/com/answer/common/redis/constant/RedisToolsConstant.java
-/Users/liuyang/Documents/GitHub/answer-cloud/answer-common/answer-redis-spring-boot-starter/src/main/java/com/answer/common/redis/lock/RedissonDistributedLock.java
-/Users/liuyang/Documents/GitHub/answer-cloud/answer-common/answer-redis-spring-boot-starter/src/main/java/com/answer/common/redis/lock/RedisDistributedLock.java
-/Users/liuyang/Documents/GitHub/answer-cloud/answer-common/answer-redis-spring-boot-starter/src/main/java/com/answer/common/redis/RedisAutoConfigure.java
-/Users/liuyang/Documents/GitHub/answer-cloud/answer-common/answer-redis-spring-boot-starter/src/main/java/com/answer/common/redis/template/CustomRedisTemplate.java

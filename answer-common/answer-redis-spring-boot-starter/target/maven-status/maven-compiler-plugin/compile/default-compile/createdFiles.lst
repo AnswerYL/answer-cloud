@@ -1,9 +1,0 @@
-com/answer/common/redis/template/CustomRedisTemplate.class
-com/answer/common/redis/properties/CacheManagerProperties$CacheConfig.class
-META-INF/spring-configuration-metadata.json
-com/answer/common/redis/constant/RedisToolsConstant.class
-com/answer/common/redis/template/CustomRedisTemplate$1.class
-com/answer/common/redis/properties/CacheManagerProperties.class
-com/answer/common/redis/RedisAutoConfigure.class
-com/answer/common/redis/lock/RedisDistributedLock.class
-com/answer/common/redis/lock/RedissonDistributedLock.class

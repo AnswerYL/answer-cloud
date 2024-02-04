@@ -1,9 +1,0 @@
-META-INF/spring-configuration-metadata.json
-com/answer/common/oss/model/ObjectInfo.class
-com/answer/common/oss/properties/FdfsProperties.class
-com/answer/common/oss/template/FdfsTemplate.class
-com/answer/common/oss/template/S3Template.class
-com/answer/common/oss/OssAutoConfigure.class
-com/answer/common/oss/service/IOssService.class
-com/answer/common/oss/properties/S3Properties.class
-com/answer/common/oss/properties/FileServerProperties.class

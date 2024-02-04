@@ -1,8 +1,0 @@
-/Users/liuyang/Documents/GitHub/answer-cloud/answer-common/answer-oss-spring-boot-starter/src/main/java/com/answer/common/oss/template/S3Template.java
-/Users/liuyang/Documents/GitHub/answer-cloud/answer-common/answer-oss-spring-boot-starter/src/main/java/com/answer/common/oss/service/IOssService.java
-/Users/liuyang/Documents/GitHub/answer-cloud/answer-common/answer-oss-spring-boot-starter/src/main/java/com/answer/common/oss/OssAutoConfigure.java
-/Users/liuyang/Documents/GitHub/answer-cloud/answer-common/answer-oss-spring-boot-starter/src/main/java/com/answer/common/oss/template/FdfsTemplate.java
-/Users/liuyang/Documents/GitHub/answer-cloud/answer-common/answer-oss-spring-boot-starter/src/main/java/com/answer/common/oss/model/ObjectInfo.java
-/Users/liuyang/Documents/GitHub/answer-cloud/answer-common/answer-oss-spring-boot-starter/src/main/java/com/answer/common/oss/properties/S3Properties.java
-/Users/liuyang/Documents/GitHub/answer-cloud/answer-common/answer-oss-spring-boot-starter/src/main/java/com/answer/common/oss/properties/FdfsProperties.java
-/Users/liuyang/Documents/GitHub/answer-cloud/answer-common/answer-oss-spring-boot-starter/src/main/java/com/answer/common/oss/properties/FileServerProperties.java

@@ -1,6 +1,0 @@
-/Users/liuyang/Documents/GitHub/answer-cloud/answer-common/answer-db-spring-boot-starter/src/main/java/com/answer/common/db/config/MybatisPlusAutoConfigure.java
-/Users/liuyang/Documents/GitHub/answer-cloud/answer-common/answer-db-spring-boot-starter/src/main/java/com/answer/common/db/interceptor/CustomTenantInterceptor.java
-/Users/liuyang/Documents/GitHub/answer-cloud/answer-common/answer-db-spring-boot-starter/src/main/java/com/answer/common/db/config/DateMetaObjectHandler.java
-/Users/liuyang/Documents/GitHub/answer-cloud/answer-common/answer-db-spring-boot-starter/src/main/java/com/answer/common/db/properties/MybatisPlusAutoFillProperties.java
-/Users/liuyang/Documents/GitHub/answer-cloud/answer-common/answer-db-spring-boot-starter/src/main/java/com/answer/common/db/mapper/SuperMapper.java
-/Users/liuyang/Documents/GitHub/answer-cloud/answer-common/answer-db-spring-boot-starter/src/main/java/com/answer/common/db/config/TenantAutoConfigure.java
